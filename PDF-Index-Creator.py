@@ -4,10 +4,9 @@ from enum import Enum
 import PyPDF2
 import os
 import openpyxl
-from PySide6.QtCore import Qt, QUrl, QEvent, QPoint, QModelIndex, QCoreApplication, QTimer, QRect, QObject, QSize, \
+from PySide6.QtCore import Qt, QUrl, QEvent, QPoint, QModelIndex, QCoreApplication, QTimer,  QObject, QSize, \
     QEventLoop, Signal
-from PySide6.QtGui import QCursor, QIcon, QIntValidator, QAction, QPalette, QColor, QCursor, QPainter, QFont, \
-    QDesktopServices
+from PySide6.QtGui import  QIcon, QIntValidator, QPalette,  QCursor, QDesktopServices
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWebEngineCore import QWebEngineSettings
 from PySide6.QtWidgets import (
@@ -15,57 +14,35 @@ from PySide6.QtWidgets import (
     QGraphicsDropShadowEffect,
     QHBoxLayout,
     QComboBox,
-    QLineEdit,
-    QCheckBox,
-    QMainWindow,
     QStyle,
     QPushButton,
     QVBoxLayout,
     QWidget,
     QSplitter,
-    QMenuBar,
     QFileDialog,
     QMessageBox,
     QSystemTrayIcon,
     QStyleOptionViewItem,
-    QLabel,
-    QFrame,
-    QFrame
+    QLabel
+
 )
 
-from PySide6.QtWidgets import QTableWidget, QMenu, QDialog, QTableWidgetItem, QInputDialog, QHeaderView, QItemDelegate, \
-    QTextEdit
-from urllib.parse import quote
-from qframelesswindow.webengine import FramelessWebEngineView, FramelessWindow
-from qfluentwidgets import (Action, Action, DropDownPushButton, DropDownToolButton, PushButton, PrimaryPushButton,
-                            HyperlinkButton, setTheme, Theme, ToolButton, ToggleButton, RoundMenu,
-                            SplitPushButton, SplitToolButton, PrimaryToolButton, PrimarySplitPushButton,
-                            PrimarySplitToolButton, PrimaryDropDownPushButton, PrimaryDropDownToolButton,
-                            TogglePushButton, ToggleToolButton, TransparentPushButton, TransparentToolButton,
-                            TransparentToggleToolButton, TransparentTogglePushButton, TransparentDropDownToolButton,
-                            SplashScreen,
-                            TransparentDropDownPushButton, PillPushButton, PillToolButton, setCustomStyleSheet,
-                            CustomStyleSheet, InfoBarIcon, InfoBar, PushButton, setTheme, Theme, FluentIcon,
-                            InfoBarPosition, FluentWindow, InfoBarManager, NavigationAvatarWidget,
+from PySide6.QtWidgets import  QDialog, QTableWidgetItem, QHeaderView
+from qframelesswindow.webengine import FramelessWebEngineView
+from qfluentwidgets import (SplashScreen, InfoBar,
+                            InfoBarPosition, FluentWindow,NavigationAvatarWidget,
                             NavigationItemPosition)
 from qfluentwidgets import FluentIcon as FIF
-from qfluentwidgets import isDarkTheme, setTheme, Theme, TableView, TextEdit  # , TableItemDelegate
-from qfluentwidgets import setTheme, Theme
-from qfluentwidgets import ComboBox, setTheme, Theme, setThemeColor, EditableComboBox, setFont, CheckBox, LineEdit, \
-    RoundMenu, setTheme, Theme, Action, MenuAnimationType, MenuItemDelegate, CheckableMenu, MenuIndicatorType
-from qfluentwidgets import (FluentIcon, TransparentDropDownPushButton, RoundMenu, CommandBar, Action, SubtitleLabel,
-                            DisplayLabel, CaptionLabel,
-                            setTheme, Theme, setFont, CommandBarView, Flyout, FlyoutAnimationType,
-                            ImageLabel, ToolButton, PushButton, MessageDialog, MessageBox, setTheme, Theme,
+from qfluentwidgets import isDarkTheme,TextEdit
+from qfluentwidgets import ComboBox
+from qfluentwidgets import (FluentIcon,RoundMenu, CommandBar, Action,CaptionLabel,
+                            MessageBox,
                             PrimaryPushButton)
-from qframelesswindow import FramelessWindow, StandardTitleBar
-from TableViewCustom import TableItemDelegate, \
-    TableWidget  # custom fix to the style of table using LineEdit and Text Edit
-# import TableViewCustom # custom fix to the style of table using LineEdit and Text Edit
-# import server
+from qframelesswindow import FramelessWindow
+from TableViewCustom import TableItemDelegate, TableWidget
 import re
-from qfluentwidgets import MessageBoxBase, SubtitleLabel, LineEdit, PushButton, setTheme, Theme
-from qframelesswindow import FramelessMainWindow, FramelessDialog
+from qfluentwidgets import LineEdit, PushButton, setTheme, Theme
+
 
 
 def resource_path(relative_path):

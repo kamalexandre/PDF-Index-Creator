@@ -422,13 +422,8 @@ class PDFIndexCreator(QWidget):
             background-color: transparent;
             text-align: left;
         }
-        /*ComboBox:hover { 
-            background-color: rgba(249, 249, 249, 0.5);
-        }*/
-        ComboBox:pressed, ComboBox:on {
-
+        ComboBox:pressed, QComboBox:on {
             border-radius: 5px;
-
         }
         ComboBox:disabled {
             color: rgba(0, 0, 0, 0.36);
@@ -443,23 +438,18 @@ class PDFIndexCreator(QWidget):
                 border: none;
                 border-radius: 0px;
                 padding: 5px 31px 6px 11px;
-                color: white;  /* Changed text color to white for better visibility */
+                color: white;
                 background-color: transparent;
                 text-align: left;
             }
-            /*ComboBox:hover { 
-                background-color: rgba(50, 50, 50, 0.5);  /* Darker background color on hover */
-            }*/
-            ComboBox:pressed, ComboBox:on {
-
+            ComboBox:pressed, QComboBox:on {
                 border-radius: 5px;
-
             }
             ComboBox:disabled {
-                color: rgba(255, 255, 255, 0.36);  /* Changed text color to white with lower opacity */
-                background: rgba(50, 50, 50, 0.3);  /* Darker background color */
-                border: 1px solid rgba(255, 255, 255, 0.06);  /* Changed border color to white with lower opacity */
-                border-bottom: 1px solid rgba(255, 255, 255, 0.06);  /* Changed border-bottom color to white with lower opacity */
+                color: rgba(255, 255, 255, 0.36);
+                background: rgba(50, 50, 50, 0.3);
+                border: 1px solid rgba(255, 255, 255, 0.06);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             }
                 """
 

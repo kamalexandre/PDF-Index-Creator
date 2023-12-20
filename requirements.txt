@@ -1,0 +1,4 @@
+
+openpyxl
+PyPDF2
+PySide6-Fluent-Widgets[full]

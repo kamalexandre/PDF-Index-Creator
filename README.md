@@ -23,7 +23,7 @@ git clone https://github.com/yourusername/pdf-index-creator.git
 # Navigate to the application directory
 cd pdf-index-creator
 
-# Create a virtual environment
+# Create a virtual environment (tested using Python 3.11.5)
 python -m venv PDF-Index-Creator
 
 # Activate the virtual environment

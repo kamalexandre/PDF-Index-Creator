@@ -18,7 +18,7 @@ The application is optimized for Windows OS and is undergoing fixes to support m
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pdf-index-creator.git
+git clone https://github.com/kamalexandre/PDF-Index-Creator.git
 
 # Navigate to the application directory
 cd pdf-index-creator

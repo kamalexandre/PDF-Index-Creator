@@ -27,7 +27,7 @@ cd pdf-index-creator
 python -m venv PDF-Index-Creator
 
 # Activate the virtual environment
-# For Windows
+# For Windows (if in powershell with errors, run "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser")
 PDF-Index-Creator\Scripts\activate
 # For Linux or MAC
 source PDF-Index-Creator/bin/activate

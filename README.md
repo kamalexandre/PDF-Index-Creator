@@ -3,6 +3,8 @@
 ## Overview
 PDF Index Creator is a dedicated Windows application for creating and managing PDF document indices. With a PySide6-powered graphical user interface, this tool provides an intuitive environment for users to add, edit, and organize index entries effectively.
 
+![Image](https://github.com/kamalexandre/PDF-Index-Creator/blob/main/SampleView.png)
+
 ## Key Features
 - **Interactive PDF Viewer**: Open and review PDFs directly within the application.
 - **Index Management**: Intuitive addition, editing, and deletion of index entries.

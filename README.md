@@ -45,4 +45,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Akam Okokon - [@yourtwitterhandle](https://twitter.com/kam_alexandre)
 
-Project Link: [https://github.com/yourusername/pdf-index-creator](https://github.com/yourusername/pdf-index-creator)
+Project Link: [PDF-Index-Creator](https://github.com/yourusername/pdf-index-creator)

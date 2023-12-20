@@ -4513,7 +4513,7 @@ const defaultOptions = {
 }
 {
   defaultOptions.defaultUrl = {
-    value: "compressed.tracemonkey-pldi-09.pdf",
+    value: "git-cheat-sheet-education.pdf",
     kind: OptionKind.VIEWER
   };
   defaultOptions.disablePreferences = {

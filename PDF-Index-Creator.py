@@ -1168,10 +1168,13 @@ class combine(QWidget):
 
         self.open_dialogs = []  # List to keep track of open search dialogs
 
-        PDF = None
         self.webview = FramelessWebEngineView(self)
-        # self.webview.load(QUrl(PDF_URL))
-        self.webview.load(QUrl.fromUserInput("%s?file=%s" % (PDFJS, PDF)))
+        self.webview.settings().setAttribute(self.webview.settings().WebAttribute.PluginsEnabled, True)
+        self.webview.settings().setAttribute(self.webview.settings().WebAttribute.PdfViewerEnabled, True)
+        self.webview.settings().setAttribute(self.webview.settings().WebAttribute.WebGLEnabled, True)
+
+        # Load the PDF.js viewer without specifying a PDF file
+        self.webview.load(QUrl.fromUserInput(PDFJS))
 
         self.line_edit = LineEdit()
         self.line_edit.setReadOnly(False)

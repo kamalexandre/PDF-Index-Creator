@@ -23,12 +23,20 @@ git clone https://github.com/yourusername/pdf-index-creator.git
 # Navigate to the application directory
 cd pdf-index-creator
 
+# Create a virtual environment
+python -m venv PDF-Index-Creator
+
+# Activate the virtual environment
+# For Windows
+PDF-Index-Creator\Scripts\activate
+# For Linux or MAC
+source PDF-Index-Creator/bin/activate
+
 # Install the required dependencies
 pip install -r requirements.txt
 
 # Run the application
-python main.py
-
+python PDF-Index-Creator.py
 ```
 Please note that as this application is in active development, it may contain bugs. Your feedback and reports on any issues you encounter are invaluable.
 

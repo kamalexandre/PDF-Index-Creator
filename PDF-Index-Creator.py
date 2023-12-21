@@ -30,7 +30,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtWidgets import  QDialog, QTableWidgetItem, QHeaderView
 from qframelesswindow.webengine import FramelessWebEngineView
 from qfluentwidgets import (SplashScreen, InfoBar,
-                            InfoBarPosition, FluentWindow,NavigationAvatarWidget,
+                            InfoBarPosition, FluentWindow,NavigationAvatarWidget,NavigationToolButton,
                             NavigationItemPosition)
 from qfluentwidgets import FluentIcon as FIF
 from qfluentwidgets import isDarkTheme,TextEdit
@@ -1043,7 +1043,7 @@ class MainWindow(FluentWindow):
         # add custom widget to bottom
         self.navigationInterface.addWidget(
             routeKey='avatar',
-            widget=NavigationAvatarWidget('kamalexandre', 'app_icon.png'),
+            widget= NavigationToolButton(FluentIcon.INFO),
             onClick=self.showMessageBox,
             position=NavigationItemPosition.BOTTOM,
         )

@@ -99,7 +99,7 @@ PDF Index Creator is in passive development and done in my spare time, it may co
 
 Contributions are what make the open-source community such an inspiring place to learn, innovate, and create. Any contributions to improve PDF Index Creator or extend its compatibility are **greatly appreciated**.
 
-## :star: Related Projects
+## :star: Related Projects for your IDX files
 
 You may also like these:
 

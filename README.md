@@ -103,7 +103,7 @@ Contributions are what make the open-source community such an inspiring place to
 
 You may also like these:
 
-PDF Index Creator Generates a simple IDX File; you can improve and work on it using tex-course-index-template which inspired this project's idx file creation. (@dhondta)
+PDF Index Creator Generates a simple IDX File; you can improve and work on it using tex-course-index-template which inspired this project's idx file creation. By @dhondta
 - [tex-course-index-template](https://github.com/academic-templates/tex-course-index-template): A template to write very condensed indexes typically for courses with multiple books.
 
 ## License

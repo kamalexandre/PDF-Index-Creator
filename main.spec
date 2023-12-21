@@ -8,7 +8,7 @@ a = Analysis(
     ['PDF-Index-Creator.py'],
     pathex=[],
     binaries=[],
-    datas=[('pdfjs', 'pdfjs'), ('app_icon.png', '.'), ('splashscreen.png', '.')],
+    datas=[('pdfjs', 'pdfjs'), ('app_icon.png', '.'),('app_icon.ico', '.'), ('splashscreen.png', '.')],
     hiddenimports=[],
     hookspath=[],
     runtime_hooks=[],

@@ -10,6 +10,7 @@ PDF Index Creator is a dedicated Windows application for creating and managing P
 - **Index Management**: Intuitive addition, editing, and deletion of index entries.
 - **Search Functionality**: Efficiently find terms with a built-in search feature.
 - **Note-taking**: Annotate index entries with personalized notes and comments.
+- **Excel File Generation**: Export your index tables to excel format.
 - **IDX File Generation**: Create `.idx` files compatible with LaTeX documentation.
 
 ## Windows Compatibility
@@ -98,6 +99,12 @@ PDF Index Creator is in passive development and done in my spare time, it may co
 
 Contributions are what make the open-source community such an inspiring place to learn, innovate, and create. Any contributions to improve PDF Index Creator or extend its compatibility are **greatly appreciated**.
 
+## :star: Related Projects
+
+You may also like these:
+
+PDF Index Creator Generates a simple IDX File; you can improve and work on it using tex-course-index-template which inspired this project's idx file creation. (@dhondta)
+- [tex-course-index-template](https://github.com/academic-templates/tex-course-index-template): A template to write very condensed indexes typically for courses with multiple books.
 
 ## License
 

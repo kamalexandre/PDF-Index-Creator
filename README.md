@@ -16,29 +16,83 @@ PDF Index Creator is a dedicated Windows application for creating and managing P
 The application is optimized for Windows OS and is undergoing fixes to support macOS and Linux in the future. Your contributions are appreciated!
 
 ## Installation
+Follow these steps to set up the PDF Index Creator:
+
+#### Step 1: Clone the Repository
+
+Clone the repository to your local machine:
+
 ```bash
-# Clone the repository
 git clone https://github.com/kamalexandre/PDF-Index-Creator.git
+```
 
-# Navigate to the application directory
-cd pdf-index-creator
+#### Step 2: Navigate to the Application Directory
 
-# Create a virtual environment (tested using Python 3.11.5)
+Change to the project directory:
+
+```bash
+cd PDF-Index-Creator
+```
+
+#### Step 3: Create a Virtual Environment
+
+Create a virtual environment for the project:
+
+```bash
 python -m venv PDF-Index-Creator
+```
 
-# Activate the virtual environment
-# For Windows (if in powershell with errors, run "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser")
+#### Step 4: Activate the Virtual Environment
+
+Activate the virtual environment:
+
+```bash
 PDF-Index-Creator\Scripts\activate
-# For Linux or MAC (N.B. PDF-Index-Creator does not run on mac os or linux for now due to some bugs)
-source PDF-Index-Creator/bin/activate
+```
 
-# Install the required dependencies
+If you encounter any errors in PowerShell, try adjusting the execution policy:
+
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+#### Step 5: Install Dependencies
+
+Install the necessary Python packages:
+
+```bash
 pip install -r requirements.txt
+```
 
-# Run the application
+#### Step 6: Run the Application
+
+Start the application:
+
+```bash
 python PDF-Index-Creator.py
 ```
-Please note that as this application is in active development, it may contain bugs. Your feedback and reports on any issues you encounter are invaluable.
+
+### Optional: Compiling to a Windows Executable
+
+To create a standalone Windows executable:
+
+1. Install PyInstaller and openpyxl:
+
+    ```bash
+    pip install --upgrade pyinstaller openpyxl
+    ```
+
+2. Compile the application:
+
+    ```bash
+    pyinstaller main.spec
+    ```
+
+    The executable will be located in the `dist` directory.
+
+## Note
+
+PDF Index Creator is in passive development and done in my spare time, it may contain bugs. Your feedback and reports on any issues you encounter are invaluable.
 
 ## Contributing
 

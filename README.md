@@ -112,6 +112,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- [@kam_alexandre](https://twitter.com/kam_alexandre)
-
 Project Link: [PDF-Index-Creator](https://github.com/yourusername/pdf-index-creator)
